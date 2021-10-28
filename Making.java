@@ -23,8 +23,24 @@ public class Making {
 		
 		// 추가 - > 가장 마지막 요소 뒤에 추가
 		list.add(1);
+		System.out.println(list.get(0));
 		list.add(2);
+		System.out.println(list.get(1));
 		list.add(3);
+		System.out.println(list.get(2));
+		
+		// 크기구하기
+		System.out.println(list.size()); //list 크기 : 3
+		
+		// 삭제
+		
+		list.remove(1);  //index 1 제거
+		list.clear();  //모든 값 제거
+		
+		
+		// 검색
+		System.out.println(list.contains(1)); //list에 1이 있는지 검색 : true
+		System.out.println(list.indexOf(1)); //1이 있는 index반환 없으면 -1
 		
 
 	}
